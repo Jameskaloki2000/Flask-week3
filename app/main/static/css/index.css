@@ -1,0 +1,50 @@
+img {
+  width: 100%;
+  height: 95vh;
+  object-fit: cover;
+}
+
+.card {
+  position: relative;
+  padding: 3rem;
+  margin: 2%;
+  width: 100%;
+  height: 31rem;
+  box-shadow: 0 0.2rem 0.5rem rgba(103, 110, 144, 0.2),
+    0 0 0 0.1rem rgba(103, 110, 144, 0.05);
+}
+.card .btn {
+  position: absolute;
+  bottom: 5%;
+  right: 25%;
+}
+.types {
+  padding-left: 2%;
+  padding-right: 2%;
+  /* vertical-align: middle; */
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 26px;
+  }
+
+  img {
+    right: 3%;
+    left: 35%;
+  }
+  .card {
+    height: 24rem;
+    padding: 2rem;
+  }
+  .card .btn {
+    position: absolute;
+    bottom: 5%;
+    right: 33%;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
