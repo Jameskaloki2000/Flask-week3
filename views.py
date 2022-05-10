@@ -1,5 +1,6 @@
 from flask import render_template,Flask,url_for,flash,redirect
-
+from forms import RegistrationForm
+from forms import RegistrationForm, LoginForm
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'Jackboy'
 posts = [
